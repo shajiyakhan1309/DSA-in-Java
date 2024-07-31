@@ -1,7 +1,7 @@
 import java.util.*;
 //Code to Reverse a Stack
-
-public class StackQ2 {
+// Using collection framework
+public class StackQ2{
     public static void pushAtBottom(Stack<Integer> s, int data) {
         if(s.isEmpty()) {
             s.push(data);
